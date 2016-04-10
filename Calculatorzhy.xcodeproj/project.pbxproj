@@ -11,10 +11,10 @@
 		2D7615BD1CA01E250037D7E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7615BC1CA01E250037D7E3 /* AppDelegate.swift */; };
 		2D7615BF1CA01E250037D7E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7615BE1CA01E250037D7E3 /* ViewController.swift */; };
 		2D7615C21CA01E250037D7E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7615C01CA01E250037D7E3 /* Main.storyboard */; };
-		2D7615C41CA01E250037D7E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7615C31CA01E250037D7E3 /* Assets.xcassets */; };
 		2D7615C71CA01E250037D7E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7615C51CA01E250037D7E3 /* LaunchScreen.storyboard */; };
 		2D7615D21CA01E250037D7E3 /* CalculatorzhyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7615D11CA01E250037D7E3 /* CalculatorzhyTests.swift */; };
 		2D7615DD1CA01E250037D7E3 /* CalculatorzhyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7615DC1CA01E250037D7E3 /* CalculatorzhyUITests.swift */; };
+		2DD9FFA01CBA7D5500FDC4CD /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD9FF9F1CBA7D5500FDC4CD /* Images-2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		2D7615BC1CA01E250037D7E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D7615BE1CA01E250037D7E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D7615C11CA01E250037D7E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2D7615C31CA01E250037D7E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D7615C61CA01E250037D7E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D7615C81CA01E250037D7E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D7615CD1CA01E250037D7E3 /* CalculatorzhyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorzhyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		2D7615D81CA01E250037D7E3 /* CalculatorzhyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorzhyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7615DC1CA01E250037D7E3 /* CalculatorzhyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorzhyUITests.swift; sourceTree = "<group>"; };
 		2D7615DE1CA01E250037D7E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD9FF9F1CBA7D5500FDC4CD /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +102,10 @@
 				2D7615BC1CA01E250037D7E3 /* AppDelegate.swift */,
 				2D7615BE1CA01E250037D7E3 /* ViewController.swift */,
 				2D7615C01CA01E250037D7E3 /* Main.storyboard */,
-				2D7615C31CA01E250037D7E3 /* Assets.xcassets */,
 				2D7615C51CA01E250037D7E3 /* LaunchScreen.storyboard */,
 				2D7615C81CA01E250037D7E3 /* Info.plist */,
 				2D7290271CA953CF004791D8 /* 计算.swift */,
+				2DD9FF9F1CBA7D5500FDC4CD /* Images-2.xcassets */,
 			);
 			path = Calculatorzhy;
 			sourceTree = "<group>";
@@ -233,8 +233,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD9FFA01CBA7D5500FDC4CD /* Images-2.xcassets in Resources */,
 				2D7615C71CA01E250037D7E3 /* LaunchScreen.storyboard in Resources */,
-				2D7615C41CA01E250037D7E3 /* Assets.xcassets in Resources */,
 				2D7615C21CA01E250037D7E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calculatorzhy/Info.plist;
@@ -417,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calculatorzhy/Info.plist;
